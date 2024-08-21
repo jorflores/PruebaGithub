@@ -44,7 +44,7 @@ fun RoundedIconButton(
     tint: Color = Color.Black.copy(alpha = 0.8f),
     backgroundColor: Color = MaterialTheme.colorScheme.background,
     elevation: CardElevation = CardDefaults.cardElevation(4.dp),
-    contentDescription: String = ""
+    contentDescription: String = "Description"
 ) {
     Card(
         modifier = modifier
